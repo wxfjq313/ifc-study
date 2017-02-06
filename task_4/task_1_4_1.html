@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task_4</title>
+    <style type="text/css">
+        .box-set {
+            background-color: #ccc;
+            width: 660px;
+            margin: 0 auto;
+        }
+
+        .box {
+            background-color: #8ec63f;
+            height: 90px;
+            width: 190px;
+            color: white;
+            float: left;
+            margin: 10px;
+            text-align: center;
+            line-height: 90px;
+            border-radius: 5px;
+            border: 5px solid #8ec63f;
+            box-shadow: 0 0 10px #ff7b26;
+        }
+
+        .clear-fix:before, .clear-fix:after {
+            content:"";
+            display: table;
+        }
+
+        .clear-fix:after{
+            clear: both;
+        }
+
+        .clear-fix{
+            zoom: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="box-set clear-fix">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+</body>
+</html>
