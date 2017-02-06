@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system-font, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif
+}
+
+.clear-fix:before, .clear-fix:after {
+    content: "";
+    display: table;
+}
+
+.clear-fix:after {
+    clear: both;
+}
+
+.clear-fix {
+    zoom: 1;
+}
+
+header {
+    background-color: #4e4e4e;
+    width: 100%;
+    height: 60px;
+}
+
+header img {
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+header ul {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 60px;
+}
+
+header ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:visited {
+    color: gray;
+}
+
+header ul li a:hover {
+    color: aqua;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+}
+
+.content {
+    background-color: #eeeeee;
+    padding: 20px;
+}
+
+.content .article-box {
+    margin-right: 450px;
+}
+
+.group-box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 2px solid;
+    border-left-color: #cccccc;
+    border-top-color: #cccccc;
+    border-right-color: #aaaaaa;
+    border-bottom-color: #aaaaaa;
+}
+
+article h2 {
+    line-height: 2.0;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+article h3 {
+    line-height: 2.0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #555;
+}
+
+article .author {
+    color: #333;
+    font-size: 14px;
+}
+
+article p {
+    color: black;
+    font-weight: 200;
+    line-height: 1.6;
+    text-indent: 38px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+
+article img {
+    display: block;
+    margin: 15px 0;
+    width: 350px;
+    height: 200px;
+}
+
+article ul {
+    list-style: none;
+    margin-left: 20px;
+}
+
+article ul li {
+    line-height: 1.5;
+}
+
+#img-list-box-5 ul {
+    margin: 0 auto;
+    list-style: none;
+}
+
+#img-list-box-5 ul li {
+    float: left;
+    width: 140px;
+    margin-left: 8px;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+}
+
+#img-list-box-5 ul li span {
+    text-align: center;
+    height: 35px;
+    display: block;
+    line-height: 35px;
+    width: 100%;
+}
+
+#img-list-box-5 ul li img {
+    width: 140px;
+
+}
+
+aside {
+    float: right;
+    width: 380px;
+    height: 500px;
+}
+
+aside h1 {
+    border-left: 3px solid #ccc;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+}
+
+aside form {
+    font-size: 14px;
+}
+
+aside form .form-box {
+    margin: 10px 0;
+}
+
+aside form .label-tips {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+aside form .tips {
+    margin-left: 40%;
+    color: #888888;
+}
+
+aside form textarea {
+    width: 200px;
+    height: 75px;
+}
+
+aside form .vertical {
+    vertical-align: top;
+}
+
+aside form .vertical-center {
+    vertical-align: middle;
+}
+
+aside form .form-btn {
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+/*aside form input:focus{*/
+/*outline: medium solid darkred;*/
+/*}*/
+
+aside form input:focus {
+    outline: medium solid lawngreen;
+}
+
+
+
+
